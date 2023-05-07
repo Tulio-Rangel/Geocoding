@@ -12,7 +12,7 @@ public class GeocodingService {
     public LatLng geocodeAddress(String address) throws Exception {
         // Set up the GeoApiContext with your API key
         GeoApiContext context = new GeoApiContext.Builder()
-                .apiKey("AIzaSyDO7z5V8YCrI6zEhpRoy7JrIi1yqn3zoxM")
+                .apiKey("APIKEY")
                 .build();
 
         // Make the geocoding API request
