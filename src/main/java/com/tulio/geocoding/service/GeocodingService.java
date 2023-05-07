@@ -19,8 +19,7 @@ public class GeocodingService {
         GeocodingResult[] results = GeocodingApi.geocode(context, address).await();
 
         // Extract the latitude and longitude from the result
-        LatLng location = results[0].geometry.location;
-        return location;
+        return results[0].geometry.location;
     }
 }
 
